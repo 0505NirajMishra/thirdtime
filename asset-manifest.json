@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/secondtime/static/css/main.1aedbe57.css",
+    "main.js": "/secondtime/static/js/main.f38e4d8f.js",
+    "index.html": "/secondtime/index.html",
+    "main.1aedbe57.css.map": "/secondtime/static/css/main.1aedbe57.css.map",
+    "main.f38e4d8f.js.map": "/secondtime/static/js/main.f38e4d8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1aedbe57.css",
+    "static/js/main.f38e4d8f.js"
+  ]
+}
