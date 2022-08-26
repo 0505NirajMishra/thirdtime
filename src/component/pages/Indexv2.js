@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { NavLink } from 'react-router-dom'
-import OwlCarousel from 'react-owl-carousel';
+// import OwlCarousel from 'react-owl-carousel';
 // import Typewriter from "typewriter-effect";
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+// import 'owl.carousel/dist/assets/owl.carousel.css';
+// import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Typed from "react-typed"
 
 const Indexv2 = () => {
@@ -410,7 +410,7 @@ const Indexv2 = () => {
 
                 <div class='container-fluid' >
 
-                  <OwlCarousel items={4} className="owl-theme" loop margin={8} autoplay={true}>
+                  {/* <OwlCarousel items={4} className="owl-theme" loop margin={8} autoplay={true}>
 
                     {
                       data.map((item) => (
@@ -434,7 +434,7 @@ const Indexv2 = () => {
                         </>
                       ))
                     }
-                  </OwlCarousel>
+                  </OwlCarousel> */}
                 </div>
               </div>
 
@@ -478,7 +478,7 @@ const Indexv2 = () => {
                   <div className="splide__track">
 
                     <ul className="splide__list">
-                      <OwlCarousel items={2} className="owl-theme" loop autoplay={true}>
+                      {/* <OwlCarousel items={2} className="owl-theme" loop autoplay={true}>
                         <li className="splide__slide mx-1">
                           <div className="tu-sucesstor_title tu-sucesstories">
                             <img
@@ -579,7 +579,7 @@ const Indexv2 = () => {
                             </div>
                           </div>
                         </li>
-                      </OwlCarousel>
+                      </OwlCarousel> */}
                     </ul>
 
                   </div>
